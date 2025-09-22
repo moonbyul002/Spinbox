@@ -72,12 +72,28 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>176</x>
-     <y>283</y>
+     <x>182</x>
+     <y>285</y>
     </hint>
     <hint type="destinationlabel">
-     <x>319</x>
-     <y>280</y>
+     <x>274</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>sliderMoved(int)</signal>
+   <receiver>spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>288</x>
+     <y>277</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>184</x>
+     <y>291</y>
     </hint>
    </hints>
   </connection>
